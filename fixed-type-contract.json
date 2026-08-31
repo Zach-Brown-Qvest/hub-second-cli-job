@@ -1,0 +1,12 @@
+{
+  "deploymentType": "cli-job",
+  "typeDeclaration": {
+    "kind": "cli-job/v1",
+    "entryPointPath": "src/transform.mjs",
+    "inputSchemaId": "cli-job-input-json/v1"
+  },
+  "artifactBuildIntent": {
+    "kind": "oci-image/v1",
+    "dockerfilePath": "Dockerfile"
+  }
+}

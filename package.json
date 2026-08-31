@@ -1,0 +1,8 @@
+{
+  "name": "fixed-type-cli-job-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/transform.test.mjs"
+  }
+}
